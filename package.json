@@ -1,0 +1,683 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "animal groups",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "askGroup",
+                    "slots": [
+                        {
+                            "name": "animalname",
+                            "type": "AnimalName"
+                        }
+                    ],
+                    "samples": [
+                        "{animalname} is",
+                        "What is the group of {animalname} called",
+                        "group of {animalname}",
+                        "A group of {animalname}",
+                        "A group of {animalname} is ",
+                        "{animalname}",
+                        "What is a group of {animalname} called"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "AnimalName",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Zebras"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Wolves"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Whales"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Weasles"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Turtles"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Turkeys"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Toads"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tigers"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Swans"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Stingrays"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Squirrrels"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Snakes"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Skunk"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Shark"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Rhinoceroses"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ravens"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Rats"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Rabbits"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Porcupines"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Pigs"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Parrots"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Owls"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Oxen"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Otters"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Mules"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Monkeys"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Moles"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Lions"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Leopards"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Lemurs"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Kangaroos"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Jellyfish"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Jaguars"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Hyenas"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Hippopotami"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Gorillas"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Giraffes"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Geese"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Frogs"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Fox"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Flamingos"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Fish"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ferrets"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Falcons"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Elk"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Elephants"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Eagles"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Donkeys"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Dogs"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Crows"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Crocodiles"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Cobras"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Wild Cats"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Cats"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Camels"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Buffalo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Bees"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Bears"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Bats"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Badgers"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Apes"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Zebra"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Wolf"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Whale"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Weasle"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Turtle"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Turkey"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Toad"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tiger"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Swan"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Stingray"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Squirrrel"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Snake"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Rhinoceros"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Raven"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Rat"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Rabbit"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Porcupine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Pig"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Parrot"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Owl"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ox"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Otter"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Mule"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Monkey"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Mole"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Lion"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Leopard"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Lemur"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Kangaroo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Jaguar"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Hyena"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Hippopotamus"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Gorilla"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Giraffe"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Goose"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Frog"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Flamingo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ferret"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Falcon"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Elephant"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Eagle"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Donkey"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Dog"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Crow"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Crocodile"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Cobra"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Wild Cat"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Cat"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Camel"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Buffaloes"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Bee"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Bear"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Bat"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Badger"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ape"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "dialog": {
+            "intents": [
+                {
+                    "name": "askGroup",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "animalname",
+                            "type": "AnimalName",
+                            "confirmationRequired": true,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "confirmation": "Confirm.Slot.5678123315.1321504872601",
+                                "elicitation": "Elicit.Slot.159235322900.697311037303"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "prompts": [
+            {
+                "id": "Elicit.Slot.159235322900.697311037303",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "What animal or group you want to know"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "Please tell the name of the animal"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "What animal"
+                    }
+                ]
+            },
+            {
+                "id": "Confirm.Slot.5678123315.1321504872601",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "You hava not provided a valid animal name. Please try again or say stop to close the skill."
+                    }
+                ]
+            }
+        ]
+    }
+}
